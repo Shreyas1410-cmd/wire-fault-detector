@@ -1,0 +1,16 @@
+v3.0 Notes - Detection Smoothing + Buzzer Alerts
+------------------------------------------------
+✅ What's New:
+- Added external buzzer on pin 8
+- Smoothed detection using 3 readings
+- Auto-reset after 10 seconds
+- Serial output made readable with 300ms delay
+
+🛠 Issues Faced:
+- COM Port 'Access Denied' issues (solved by checking port conflicts)
+- Some instability in sensor data (improved with smoothing)
+- Buzzer initially didn't work (solved by testing with basic sketch)
+
+📌 Next Step:
+- Self-adjusting threshold (auto-calibrated baseline)
+- Logging values to SD card or sending via Bluetooth
