@@ -1,0 +1,17 @@
+v4.0 Notes - Auto Baseline Detection + No Threshold
+---------------------------------------------------
+✅ What's New:
+- Baseline is automatically calculated at startup (no threshold needed)
+- Detects wire cut when value drops below 85% of baseline
+- LED stays ON during alert, blinks otherwise
+- Buzzer beeps rapidly during alert phase
+- Auto reset after 10 seconds
+
+🛠 Issues Faced:
+- Sudden environment changes caused false detection → solution: delay baseline computation
+- Needed more smoothing → used 5 samples
+
+📌 Ideas for Next Version:
+- Continuously adjust baseline over time (adaptive)
+- Store logs to SD card or send via Bluetooth
+- Add display (OLED/LCD) to show live data
