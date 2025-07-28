@@ -1,0 +1,15 @@
+v2.0 Notes - Visual Cut Detection via LED
+-----------------------------------------
+✅ What was done:
+- Used Arduino’s internal LED (pin 13) as a basic indicator
+- Blinked slowly during normal readings
+- Kept LED ON constantly when value fell below threshold
+
+🛠 Issues Faced:
+- Still dependent on fixed threshold (650)
+- Serial monitor updates a bit fast
+- Cut detection not very accurate (just based on one value)
+
+📌 Next Step:
+- Add buzzer for stronger alert
+- Smoothen detection with multiple readings
