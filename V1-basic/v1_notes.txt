@@ -1,0 +1,14 @@
+v1.0 Notes - Initial Setup
+---------------------------
+✅ What was done:
+- Connected Hall Effect Sensor (A3144) to A1
+- Read analog values and printed them to Serial Monitor
+
+🛠 Issues Faced:
+- Readings were updating too fast to read clearly
+- No indication via LED or Buzzer
+- Had to manually observe for drops in values
+
+📌 Next Step:
+- Add LED for basic visual indication
+- Add delay or smoothing
